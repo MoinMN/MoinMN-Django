@@ -81,11 +81,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         # 'NAME': BASE_DIR / 'db.sqlite3',
-        'NAME': 'portfolio',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        # 'HOST': 'localhost',
-        # 'PORT': '5433',
+        'NAME': 'verceldb',
+        'USER': 'default',
+        'PASSWORD': 'aCJ8u1VWHtDT',
+        'HOST': 'ep-wispy-king-782254-pooler.ap-southeast-1.postgres.vercel-storage.com',
+        # 'PORT': '5432',
     }
 }
 
