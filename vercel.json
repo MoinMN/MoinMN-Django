@@ -3,27 +3,23 @@
   "builds": [
     {
       "src": "migrate.py",
-      "use": "@now/python"
+      "use": "@vercel/python",
+      "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
     {
-      "src": "^(?!(migrate.py)).*",
-      "use": "@now/static-build"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
-    "builds": [{
       "src": "MoinMN/wsgi.py",
       "use": "@vercel/python",
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
-    }],
+    }
+  ],
   "routes": [
+    {
+      "src": "/migrate",
+      "dest": "/migrate.py"
+    },
     {
       "src": "/(.*)",
       "dest": "MoinMN/wsgi.py"
     }
+  ]
 }
