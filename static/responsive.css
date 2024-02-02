@@ -1,0 +1,370 @@
+@media (max-width: 1310px){
+    #home .container .content h1{
+        font-size: 42px;
+    }
+
+    #home .container .content h1 span{
+        font-size: 50px;
+    }
+
+    #home .container .content h2{
+        font-size: 37px;
+    }
+    
+    #home .container .content h2 span{
+        font-size: 46px;
+    }
+
+    #photo img{
+        width: 460px;
+    }
+
+    #home .container{
+        padding: 38px 6px;
+    }
+
+}
+
+
+@media (max-width: 1160px){
+    .navbar ul li{
+        margin: 20px 20px;
+        font-size: 22px;
+    }
+
+    nav .logo img{
+        width: 100px;
+        height: 100px;
+        margin: 0 30px;
+    }
+
+    #photo img{
+        width: 400px;
+    }
+
+    .btn button{
+        font-size: 17px;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    nav{
+        justify-content: space-between;
+    }
+
+    .m-btn{
+        margin: 0 30px;
+    }
+
+    #m-btn #menu{
+        display: block;
+    }
+
+    #home .container #photo{
+        display: none;
+    }
+
+    #home .container .content{
+        margin: 130px 0px;
+    }
+}
+
+@media (max-width: 1000px){
+    #about .container{
+        margin: 20px 80px;
+    }
+    
+    #about .container h2{
+        font-size: 30px;
+    }
+
+    .main-head{
+        font-size: 20px;
+        margin-left: 40px;
+    }
+
+    #about .container p{
+        font-size: 22px;
+    }
+
+    #contact .contact-contain form div input{
+        max-width: 350px;
+    }
+
+    #contact .contact-contain form input{
+        max-width: 730px;
+    }
+
+    #contact .contact-contain form textarea{
+        max-width: 730px;
+    }
+
+    .navbar ul{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 805px){
+    .main-head{
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    #about .container{
+        margin: 20px 40px;
+    }
+
+    #about .container h2{
+        font-size: 28px;
+    }
+
+    #about .container p{
+        font-size: 18px;
+    }
+
+    footer{
+        margin-top: 80px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer .right{
+        justify-content: center;
+        align-items: center;  
+    }
+
+    footer .left .links{
+        font-size: 30px;
+        margin-top: 12px;
+    }
+
+    #contact .contact-contain form div input{
+        width: 300px;
+    }
+
+    #contact .contact-contain form input{
+        width: 628px;
+    }
+
+    #contact .contact-contain form textarea{
+        width: 628px;
+    }
+
+    #project .project{
+        width: 300px;
+        margin: 30px;
+    }
+    
+    #project .project h3{
+        font-size: 20px;
+        padding-top: 35px;
+    }
+    
+    #project .project p{
+        font-size: 14px;
+    }
+
+    #project .project .lang span{
+        font-size: 9px;
+    }
+
+    #project .project a input{
+        width: 80px;
+    }
+
+    #about .container h2{
+        font-size: 30px;
+    }
+
+    #about .social-container h2{
+        font-size: 30px;
+        margin: 12px 30px;
+    }
+}
+
+
+@media (max-width: 655px){
+    #home .container .content h1{
+        font-size: 40px;
+    }
+
+    #home .container .content h1 span{
+        font-size: 46px;
+    }
+
+    #home .container .content h2{
+        font-size: 34px;
+    }
+    
+    #home .container .content h2 span{
+        font-size: 42px;
+    }
+
+    nav .logo img{
+        width: 80px;
+        height: 80px;
+    }
+
+    #about .container{
+        margin: 18px 20px;
+    }
+
+    #about .container p{
+        font-size: 18px;
+    }
+
+    #contact .contact-contain form div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact .contact-contain form input{
+        width: 300px;
+    }
+
+    #contact .contact-contain form textarea{
+        width: 300px;
+    }
+
+    #contact .contact-contain .contact-info #info-item{
+        justify-content: center;
+        margin: 50px 25px;
+        padding: 20px 0;
+        flex-wrap: wrap;
+    }
+
+    #contact .contact-contain .contact-info #info-item .info-item i{
+        font-size: 28px;
+    }
+    
+    #contact .contact-contain .contact-info #info-item .info-item p{
+        font-size: 18px;
+    }
+    
+    #contact .contact-contain .contact-info #info-item .info-item span a{
+        font-size: 18px;
+    }
+
+    #contact .contact-contain .contact-info h3{
+        font-size: 22px;
+    }
+    
+    #contact .contact-contain .contact-info h5{
+        font-size: 18px;
+    }
+
+    #about .social-container h2{
+        font-size: 30px;
+        margin: 12px 20px;
+    }
+
+    #about .connect .social{
+        width: 100px;
+        margin: 8px;
+        padding: 8px;
+    }
+
+    #project .main-head{
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    
+}
+
+@media (max-width: 555px){
+    #home .container .content h1{
+        font-size: 36px;
+    }
+
+    #home .container .content h1 span{
+        font-size: 42px;
+    }
+
+    #home .container .content h2{
+        font-size: 32px;
+    }
+    
+    #home .container .content h2 span{
+        font-size: 40px;
+    }
+
+    .btn button{
+        font-size: 14px;
+    }
+
+    #about .container h2{
+        font-size: 30px;
+    }
+
+    #skill .skill-contain .skills abbr{
+        font-size: 18px;
+        width: 110px;
+        margin: 6px;
+        padding: 6px;
+    }
+
+    #skill .skill-contain .skills i{
+        font-size: 56px;
+    }
+
+}
+
+@media (max-width: 475px){
+    #home .container .content h1{
+        font-size: 30px;
+    }
+
+    #home .container .content h1 span{
+        font-size: 36px;
+    }
+
+    #home .container .content h2{
+        font-size: 26px;
+    }
+    
+    #home .container .content h2 span{
+        font-size: 34px;
+    }
+
+    .btn button{
+        font-size: 13px;
+    }
+
+    #about .container p{
+        font-size: 16px;
+    }
+
+    #about .container h2{
+        font-size: 24px;
+    }
+
+    footer .right{
+        font-size: 16px;
+    }
+
+    footer .left{
+        font-size: 16px;
+    }
+
+    footer .left .links{
+        font-size: 24px;
+    }
+
+    #project .project a input{
+        width: 80px;
+        margin: 12px 12px;
+    }
+
+    .navbar ul li{
+        margin: 12px;
+        font-size: 18px;
+    }
+
+    aside .newNavbar #navID li a{
+        font-size: 18px;
+    }
+}
